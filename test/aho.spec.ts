@@ -17,16 +17,16 @@ describe('strToAho', () => {
   test('123', () => {
     const str = '123';
     const aho = strToAho(str);
-    expect(aho).toBe('ﾋｬｸﾆｼﾞｭｳｻﾝ');
+    expect(aho).toBe('ﾋｬｸﾆｼﾞｭｰｻﾝ');
   });
   test('456', () => {
     const str = '456';
     const aho = strToAho(str);
-    expect(aho).toBe('ﾖﾝﾋｬｸｺﾞｼﾞｭｳﾛｸ');
+    expect(aho).toBe('ﾖﾝﾋｬｸｺﾞｼﾞｭｰﾛｸ');
   });
   test('789', () => {
     const str = '789';
     const aho = strToAho(str);
-    expect(aho).toBe('ﾅﾅﾋｬｸﾊﾁｼﾞｭｳｷｭｳ');
+    expect(aho).toBe('ﾅﾅﾋｬｸﾊﾁｼﾞｭｰｷｭｰ');
   });
 });
